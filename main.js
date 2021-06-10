@@ -1,9 +1,9 @@
 import "./style.css";
 
-import * as THREE from "./node_modules/three/build/three.module";
+import * as THREE from "https://unpkg.com/three@0.129.0/build/three.module.js";
 import { AmbientLight, Camera, MathUtils, PointLightHelper } from "three";
 
-import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
+import { OrbitControls } from "https://unpkg.com/three@0.127.0/examples/jsm/controls/OrbitControls.js";
 
 const scene = new THREE.Scene();
 

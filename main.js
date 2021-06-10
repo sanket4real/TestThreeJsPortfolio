@@ -1,6 +1,6 @@
 import "./style.css";
 
-import * as THREE from "three";
+import * as THREE from "./node_modules/three/build/three.module";
 import { AmbientLight, Camera, MathUtils, PointLightHelper } from "three";
 
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
@@ -38,7 +38,7 @@ pointLight.position.set(5, 5, 5);
 const ambientLight = new THREE.AmbientLight(0xffffff);
 scene.add(pointLight, ambientLight);
 
-const lightHelper = new THREE.PointLightHelper(pointLight);
+//const lightHelper = new THREE.PointLightHelper(pointLight);
 // const gridHelper = new THREE.GridHelper(200, 50);
 // scene.add(lightHelper);
 
